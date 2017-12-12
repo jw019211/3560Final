@@ -10,6 +10,12 @@ using namespace std;
 int countLine(char *pName);
 int countChar(char *pName);
 
+/**
+	\breif the main function calls the other funtions
+	\detail it checks the number of arguments and calls certain funtions depending on the result
+**/
+
+
 int main(int argc, char **argv)
 {
 	int lcount;
